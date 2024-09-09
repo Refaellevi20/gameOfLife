@@ -1,0 +1,29 @@
+[data-name="puki"][data-age="18"] {
+    background-color: lightcoral;
+}
+
+body {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+}
+
+.occupied {
+    background-color: lightgray;
+}
